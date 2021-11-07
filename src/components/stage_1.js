@@ -34,7 +34,7 @@ const Stage1 = () => {
 		}
 	}
 
-	console.log(context);
+	// console.log(context);
 
 	return (
 		<>
