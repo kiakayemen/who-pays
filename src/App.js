@@ -21,10 +21,10 @@ class App extends Component {
             :
             <Stage2/>
           }
-        </div>
-          <footer>
+            <footer>
             <h4>Made By Kia</h4>
           </footer>
+        </div>
       </div>
     );
   }
