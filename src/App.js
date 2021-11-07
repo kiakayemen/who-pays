@@ -16,13 +16,15 @@ class App extends Component {
       <div className="wrapper">
         <div className="center-wrapper">
           <h1>KI KOON MIDE?</h1>
-          <h2> Made By Kia</h2>
           {this.context.state.stage === 1 ?
             <Stage1 />
             :
             <Stage2/>
           }
         </div>
+          <footer>
+            <h4>Made By Kia</h4>
+          </footer>
       </div>
     );
   }
